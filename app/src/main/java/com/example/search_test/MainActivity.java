@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> arrayList;
     ArrayAdapter <String> adapter;
 
-    @SuppressLint("WrongViewCast")
+    @SuppressLint({"WrongViewCast", "CutPasteId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
